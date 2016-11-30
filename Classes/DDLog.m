@@ -882,7 +882,7 @@ static NSUInteger _numProcessors;
 #pragma mark Utilities
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-NSString * DDExtractFileNameWithoutExtension(const char *filePath, BOOL copy) {
+NSString * DDExtractFileNameWithoutExtension__(const char *filePath, BOOL copy) {
     if (filePath == NULL) {
         return nil;
     }
